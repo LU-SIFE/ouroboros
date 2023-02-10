@@ -1,8 +1,10 @@
 @if (@CodeSection == @Batch) @then
 
-@echo off
+@echo OFF
 color 0D
 
+rem I should make it invert colors as well.
+rem uuhhhh maybe some other things too :P
 rem Use %SendKeys% to send keys to the keyboard buffer
 set SendKeys=CScript //nologo //E:JScript "%~F0"
 
@@ -19,9 +21,7 @@ ping -n 1 -w 1 127.0.0.1 > NUL
 ping -n 2 -w 1 127.0.0.1 > NUL
 %SendKeys% "{ENTER}"
 ping -n 1 -w 1 127.0.0.1 > NUL
-start ms-settings:
-ping -n 2 -w 1 127.0.0.1 > NUL
-%SendKeys% "{TAB}{ENTER}"
+start ms-settings:display
 ping -n 2 -w 1 127.0.0.1 > NUL
 %SendKeys% "{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{ENTER}"
 ping -n 1 -w 1 127.0.0.1 > NUL
@@ -37,10 +37,7 @@ ping -n 2 -w 1 127.0.0.1 > NUL
 
 
 goto :EOF
-
-
 @end
-
 
 // JScript section
 
