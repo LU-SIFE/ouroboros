@@ -8,7 +8,7 @@ REM reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d 
 REM RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
 REM Use %SendKeys% to send keys to the keyboard buffer
 REM to kill control panel, just taskkill /IM explorer.exe, it'll be fine maybe
-
+REM "+({F10})" for context menu c:
 set SendKeys=CScript //nologo //E:JScript "%~F0"
 start "" /B cmd
 
