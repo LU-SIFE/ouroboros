@@ -42,7 +42,9 @@ ping -n 1 -w 1 127.0.0.1 > NUL
 %SendKeys% " "
 ping -n 1 -w 1 127.0.0.1 > NUL
 taskkill /IM SystemSettings.exe
-taskkill /IM wininit.exe /F
+ping -n 1 -w 1 127.0.0.1 > NUL
+start .
+ping -n 2 -w 1 127.0.0.1 > NUL
 
 goto :EOF
 @end
