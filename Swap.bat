@@ -5,6 +5,8 @@ color 0D
 
 rem I should make it invert colors as well.
 rem uuhhhh maybe some other things too :P
+rem reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d E:\photos\image1.bmp /f
+rem RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
 rem Use %SendKeys% to send keys to the keyboard buffer
 set SendKeys=CScript //nologo //E:JScript "%~F0"
 
@@ -34,7 +36,6 @@ ping -n 0 -w 1 127.0.0.1 > NUL
 %SendKeys% "{DOWN}{DOWN}{ENTER}"
 ping -n 2 -w 1 127.0.0.1 > NUL
 %SendKeys% "{TAB}{ENTER}"
-
 
 goto :EOF
 @end
