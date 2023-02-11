@@ -24,3 +24,4 @@ echo ?MXT@Wx.~    :     ~"##*$$$$M~
 
 REM LOCKJAW
 REM yeah idk what this can do, its messed with video buffers and stuff before, so idk run at your own risk.
+REM ignore the fact that this is literally the most basic logic bomb ever
