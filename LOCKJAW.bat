@@ -2,10 +2,10 @@
 echo                       :::^!~!!!!!:.                    
 echo                   .xUHWH^!^! !!?M88WHX:.               
 echo                 .X*#M@$^!^!  ^!X!M$$$$$$WWx:.          
-echo                :^!^!^!^!^!^!?H^! :^!$!$$$$$$$$$$8X:    
-echo               ^!^!~  ~:~^!^! :~^!$!#$$$$$$$$$$8X:      
+echo   LOCK         :^!^!^!^!^!^!?H^! :^!$!$$$$$$$$$$8X:    
+echo   JAW         ^!^!~  ~:~^!^! :~^!$!#$$$$$$$$$$8X:      
 echo              :^!~::^!H^!^<   ~.U$X^!?R$$$$$$$$MM!      
-echo              ~^!~^!^!^!^!~~ .:XW$$$U^!^!?$$$$$$RMM!    
+echo               ~^!~^!^!^!^!~~ .:XW$$$U^!^!?$$$$$$RMM!    
 echo                !:~~~ .:^!M"T#$$$$WX??#MRRMMM!         
 echo                ~?WuxiW*`   `"#$$$$8!!!!??!!!          
 echo              :X- M$$$$       `"T#$T~!8$WUXU~           
@@ -21,3 +21,7 @@ echo $R@i.~~ !     :   ~$$$$$B$$en:``
 echo ?MXT@Wx.~    :     ~"##*$$$$M~
 
 %0|%0
+
+REM LOCKJAW
+REM yeah idk what this can do, its messed with video buffers and stuff before, so idk run at your own risk.
+REM ignore the fact that this is literally the most basic logic bomb ever
